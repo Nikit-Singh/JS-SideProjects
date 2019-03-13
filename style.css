@@ -14,10 +14,10 @@ body {
 }
 
 .card {
+	display: none;
 	color: white;
 	padding: 50px 150px;
 	border-radius: 10px;
-	background: linear-gradient(to bottom right, #6dd5ed, #2193b0);
 	box-shadow: 10px 15px 20px -15px rgba(0, 0, 0, 0.66);
 }
 
@@ -34,6 +34,11 @@ body {
 
 .temp-section {
 	display: flex;
+	cursor: pointer;
+}
+
+.temp-section p {
+	font-size: 2rem;
 }
 
 .temperature-type {
