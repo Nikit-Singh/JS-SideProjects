@@ -1,0 +1,50 @@
+* {
+	font-family: 'Lato';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.card {
+	color: white;
+	padding: 50px 150px;
+	border-radius: 10px;
+	background: linear-gradient(to bottom right, #6dd5ed, #2193b0);
+	box-shadow: 10px 15px 20px -15px rgba(0, 0, 0, 0.66);
+}
+
+.location {
+	font-size: 4rem;
+}
+
+.temperature {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.temp-section {
+	display: flex;
+}
+
+.temperature-type {
+	font-size: 2rem;
+}
+
+span {
+	display: flex;
+	font-size: 2rem;
+}
+
+.temperature-desc {
+	font-size: 1.2rem;
+}
