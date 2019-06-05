@@ -1,0 +1,1 @@
+Just basic web apps using Vanilla Javascript and/or JQuery.
